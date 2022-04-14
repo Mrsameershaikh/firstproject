@@ -1,0 +1,101 @@
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 38px;
+    top: -28px;
+}
+
+.left img {
+    width: 130px;
+}
+
+.left div {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 28px;
+    line-height: 3.5px;
+}
+
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    margin-left: 30%;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+}
+
+.right a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: x-large
+}
+
+.right a:hover {
+    background-color: rgb(102, 94, 94);
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 23px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+#offer{
+    margin:90px 50px 50px 50px;
+    font-size: 150%;
+}
+.form{
+        margin: 50px;        
+        /* border: 1px solid gray; */
+        /* display: inline-block; */
+}
+.form div input{
+    
+    padding:8px 30px 8px 8px;
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(212, 212, 185);
+    display: block;
+    font-size: medium;
+    
+} 
+button{
+    margin-left: 7px;
+    margin-top: 2px;
+    font-size: larger;
+    background-color: rgb(63, 58, 58);
+    border-radius: 10px;
+    padding: 5px 50px 5px 50px;
+    width: 340px;
+    color: white;
+    
+}
